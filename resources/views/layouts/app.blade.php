@@ -11,8 +11,6 @@
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
-
-                <!-- Collapsed Hamburger -->
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                         data-target="#app-navbar-collapse">
                     <span class="sr-only">Toggle Navigation</span>
@@ -20,8 +18,6 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-
-                <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">Adib Hanna</a>
             </div>
 
@@ -58,9 +54,45 @@
         </div>
     </nav>
 
-    {{-- The main contents --}}
-    @yield('content')
-
+    <div class="container">
+        <div class="row">
+            @yield('content')
+        </div>
+        <hr>
+        <footer class="footer">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Copyright © {{ date("Y") }} - Adib Hanna</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact text-right">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://twitter.com/adibhanna" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/adibhanna" target="_blank">
+                                <i class="fa fa-github"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/113619238331121062947" target="_blank">
+                                <i class="fa fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://linkedin.com/in/adibhanna" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>

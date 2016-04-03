@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="Adib Hanna, Software developer, Chess player, Musician, Artist..." name="description">
+    <meta content="Adib Hanna" name="author">
     <title>Adib Hanna</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
@@ -23,8 +25,10 @@
 
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/blog') }}">Blog</a></li>
-                    <li><a href="{{ url('/contact') }}">Contact</a></li>
+                    <li><a href="{{ url('/code') }}">Code</a></li>
+                    <li><a href="{{ url('/chess') }}">Chess</a></li>
+                    <li><a href="{{ url('/music') }}">Music</a></li>
+                    <li><a href="{{ url('/random') }}">Random</a></li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
@@ -55,9 +59,9 @@
     </nav>
 
     <div class="container">
-        <div class="row">
+        <!-- <div class="row"> -->
             @yield('content')
-        </div>
+        <!-- </div> -->
         <hr>
         <footer class="footer">
             <div class="row">

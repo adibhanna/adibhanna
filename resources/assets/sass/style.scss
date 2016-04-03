@@ -1,0 +1,13 @@
+$testColor: #2c3e50;
+
+body {
+    line-height: 1.7;
+}
+
+p, h1, h2, h3, h4, h5 {
+    color: $testColor;
+}
+
+p, ul, li{
+    font-size: 16px;
+}

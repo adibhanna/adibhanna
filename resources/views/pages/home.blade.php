@@ -9,7 +9,6 @@
             <strong>Languages:</strong>
             <span class="label label-primary">PHP</span>
             <span class="label label-primary">Golang</span>
-            <span class="label label-primary">Ruby</span>
             <span class="label label-primary">Javascript</span>
             <span class="label label-primary">Lua</span>
             <span class="label label-primary">HTML5</span>
@@ -19,8 +18,8 @@
             <br>
             <strong>Frameworks &amp; Libraries :</strong>
             <span class="label label-primary">Laravel 3,4,5..</span>
+            <span class="label label-primary">Symfony</span>
             <span class="label label-primary">Codigniter</span>
-            <span class="label label-primary">Rails</span>
             <span class="label label-primary">Nodejs</span>
             <span class="label label-primary">Expressjs</span>
             <span class="label label-primary">Loopback</span>

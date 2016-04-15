@@ -25,10 +25,10 @@
 
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/code') }}">Code</a></li>
-                    <li><a href="{{ url('/chess') }}">Chess</a></li>
-                    <li><a href="{{ url('/music') }}">Music</a></li>
-                    <li><a href="{{ url('/random') }}">Random</a></li>
+                    <!-- <li><a href="{{ url('/code') }}">Code</a></li> -->
+                    <!-- <li><a href="{{ url('/chess') }}">Chess</a></li> -->
+                    <!-- <li><a href="{{ url('/music') }}">Music</a></li> -->
+                    <!-- <li><a href="{{ url('/random') }}">Random</a></li> -->
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">

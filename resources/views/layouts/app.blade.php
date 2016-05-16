@@ -25,13 +25,18 @@
 
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="https://medium.com/@Adib_Hanna">blog</a></li>
-                    <!-- <li><a href="{{ url('/chess') }}">Chess</a></li> -->
+                    <!-- <li><a href="https://medium.com/@Adib_Hanna">Medium</a></li> -->
+                    <li><a href="{{ url('/about') }}">About</a></li>
                     <!-- <li><a href="{{ url('/music') }}">Music</a></li> -->
                     <!-- <li><a href="{{ url('/random') }}">Random</a></li> -->
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="https://medium.com/@Adib_Hanna" target="_blank">
+                        <i class="fa fa-medium"></i>
+                        </a>
+                    </li>
                     <li>
                         <a href="https://twitter.com/adibhanna" target="_blank">
                         <i class="fa fa-twitter"></i>
@@ -59,9 +64,7 @@
     </nav>
 
     <div class="container">
-        <!-- <div class="row"> -->
-            @yield('content')
-        <!-- </div> -->
+        @yield('content')
         <hr>
         <footer class="footer">
             <div class="row">
@@ -71,6 +74,11 @@
                 <div class="col-md-6">
                     <div class="contact text-right">
                         <ul class="list-inline">
+                            <li>
+                                <a href="https://medium.com/@Adib_Hanna" target="_blank">
+                                <i class="fa fa-medium"></i>
+                                </a>
+                            </li>
                             <li>
                                 <a href="https://twitter.com/adibhanna" target="_blank">
                                 <i class="fa fa-twitter"></i>

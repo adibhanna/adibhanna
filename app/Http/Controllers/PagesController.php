@@ -3,7 +3,6 @@
 namespace Blog\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use Blog\Http\Requests;
 
 class PagesController extends Controller

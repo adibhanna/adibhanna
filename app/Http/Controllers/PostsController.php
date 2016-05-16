@@ -3,7 +3,6 @@
 namespace Blog\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use Blog\Http\Requests;
 
 class PostsController extends Controller
@@ -20,7 +19,9 @@ class PostsController extends Controller
 
     /**
      * Show a specific blog post.
+     *
      * @param  string|int $slugOrId
+     *
      * @return View
      */
     public function show($slugOrId)

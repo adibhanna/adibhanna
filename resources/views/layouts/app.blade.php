@@ -16,10 +16,6 @@
     <meta property="og:locale" content="en_US">
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
-    <style>
-
-    </style>
 </head>
 <body id="app-layout">
     <nav class="navbar navbar-default navbar-static-top">
@@ -37,10 +33,7 @@
 
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <!-- <li><a href="https://medium.com/@Adib_Hanna">Medium</a></li> -->
-                    <li><a href="{{ url('/about') }}">About</a></li>
-                    <!-- <li><a href="{{ url('/music') }}">Music</a></li> -->
-                    <!-- <li><a href="{{ url('/random') }}">Random</a></li> -->
+                    <li><a href="{{ url('/blog') }}">Blog</a></li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">

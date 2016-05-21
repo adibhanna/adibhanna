@@ -2,9 +2,15 @@
 
 namespace Blog\Http\Controllers;
 
-use Illuminate\Http\Request;
+use Blog\Tag;
+use Blog\Article;
 use Blog\Http\Requests;
+use Illuminate\Http\Request;
 
+/**
+ * @author Adib Hanna <adibhanna@gmail.com>
+ * Class PostsController
+ */
 class PostsController extends Controller
 {
     /**
@@ -14,7 +20,11 @@ class PostsController extends Controller
      */
     public function index()
     {
-        return view('pages.blog.listing');
+        $articles = Article::orderBy('created_at', 'desc')->paginate(10);
+
+        $tags = Tag::has('articles', '>', 0)->get();
+
+        return view('pages.blog.listing', compact('articles', 'tags'));
     }
 
     /**

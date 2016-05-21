@@ -8,21 +8,11 @@ use Blog\Http\Requests;
 class PagesController extends Controller
 {
     /**
-     * List the blog posts
+     * Show the home page.
      *
      * @return View
      */
     public function index()
-    {
-        return view('pages.blog.listing');
-    }
-
-    /**
-     * Show a specific blog post.
-     *
-     * @return View
-     */
-    public function about()
     {
         return view('pages.about');
     }

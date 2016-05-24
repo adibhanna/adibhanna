@@ -25,5 +25,7 @@
       ga('send', 'pageview');
     </script>
 
+    <script id="dsq-count-scr" src="//adibhannablog.disqus.com/count.js" async></script>
+
 </body>
 </html>

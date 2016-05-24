@@ -6,6 +6,8 @@
             <h1>{{ $article->title }}</h1>
             <p class="article-metadata">Posted on {{ $article->created_at->formatLocalized('%A %d %B %Y') }}</p>
             <p>{!! markdown($article->body) !!}</p>
+
+            @include('pages.partials.disqus')
         </div>
 
         <div class="col-lg-3 col-lg-push-1 col-md-2 right-rail">

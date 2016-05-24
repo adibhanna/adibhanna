@@ -80,9 +80,8 @@
         <div class="col-md-3">
             <p>You can also find me on these slack groups:</p>
             <ul>
-                <li><a href="http://vueslack.slack.com" target="_blank">vueslack.slack.com (creator)</a></li>
+                <li><a href="http://vueslack.slack.com" target="_blank">vueslack.slack.com</a></li>
                 <li><a href="http://larachat.slack.com" target="_blank">larachat.slack.com</a></li>
-                <li><a href="http://angularbuddies.slack.com" target="_blank">angularbuddies.slack.com</a></li>
                 <li><a href="http://embercommunity.slack.com" target="_blank">embercommunity.slack.com</a></li>
                 <li><a href="http://neo4j-users.slack.com" target="_blank">neo4j-users.slack.com</a></li>
                 <li><a href="http://mena-devs.slack.com" target="_blank">mena-devs.slack.com</a></li>
@@ -96,7 +95,7 @@
                 </li>
                 <li>Chess: <a href="https://ratings.fide.com/card.phtml?event=5301513" target="_blank">Fide.com</a> - <a href="http://www.chess.com">chess.com</a> (usename: Adib_Takween)</li>
                 <li>Music: Composition, Bass guitar, some classical guitar.</li>
-                <li>Reading, Painting (occationally), Bodybuilding.</li>
+                <li>Reading, Painting, Bodybuilding.</li>
             </ul>
         </div>
     </div>

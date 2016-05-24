@@ -2,10 +2,8 @@
 
 namespace Blog\Http\Controllers;
 
-use Blog\Tag;
 use Blog\Article;
 use Blog\Http\Requests;
-use Illuminate\Http\Request;
 
 /**
  * @author Adib Hanna <adibhanna@gmail.com>
@@ -14,28 +12,60 @@ use Illuminate\Http\Request;
 class PostsController extends Controller
 {
     /**
-     * Home page which is the same as the blog post listing.
+     * List the all articles, or filter them by tags.
      *
+     * @param null $tag
      * @return View
      */
-    public function index()
+    public function index($tag = null)
     {
-        $articles = Article::orderBy('created_at', 'desc')->paginate(10);
+        $articles = Article::listing($tag);
 
-        $tags = Tag::has('articles', '>', 0)->get();
-
-        return view('pages.blog.listing', compact('articles', 'tags'));
+        return view('pages.blog.listing', compact('articles'));
     }
 
     /**
      * Show a specific blog post.
      *
-     * @param  string|int $slugOrId
+     * @param  string $slug
      *
      * @return View
      */
-    public function show($slugOrId)
+    public function show($slug)
     {
-        return $slugOrId;
+        $article = Article::where('slug', $slug)->firstOrFail();
+
+        // those are used for SEO.
+        list($meta_page_title, $meta_post_title, $meta_post_description, $meta_post_url, $meta_post_type) = $this->seoData($article);
+
+        return view('pages.blog.details',
+            compact(
+                'article',
+                'meta_page_title',
+                'meta_post_title',
+                'meta_post_description',
+                'meta_post_url',
+                'meta_post_type'
+            )
+        );
+    }
+
+    /**
+     * SEO Data.
+     *
+     * @param $article
+     * @return array
+     */
+    private function seoData($article)
+    {
+        $meta_page_title = 'Adib Hanna - ' . $article->title;
+        $meta_post_title = $article->title;
+        $meta_post_description = $article->description;
+        $meta_post_url = url()->current();
+        $meta_post_type = implode(', ', $article->tags->map(function ($tag) {
+            return $tag->title;
+        })->toArray());
+
+        return array($meta_page_title, $meta_post_title, $meta_post_description, $meta_post_url, $meta_post_type);
     }
 }

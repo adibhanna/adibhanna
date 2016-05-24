@@ -66,7 +66,7 @@
         </div>
 
         <div class="col-md-3">
-            <img src="{{ asset('img/adib.jpg') }}" alt="Adib Hanna" class="img-circle" width="200px">
+            <img src="{{ asset('img/adib1.jpg') }}" alt="Adib Hanna" class="img-circle" width="200px">
         </div>
     </div>
     <div class="row">

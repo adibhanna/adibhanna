@@ -2,9 +2,12 @@
 
 namespace Blog;
 
-use Blog\Article;
 use Illuminate\Database\Eloquent\Model;
 
+/**
+ * Class Tag
+ * @package Blog
+ */
 class Tag extends Model
 {
     /**
@@ -24,10 +27,20 @@ class Tag extends Model
     /**
      * A tag belongs to many article.
      *
-     * @return Illuminate\Database\Eloquent\Relations\BelongsToMany
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */
     public function articles()
     {
         return $this->belongsToMany(Article::class);
+    }
+
+    /**
+     * Return the tags that has articles related to them.
+     *
+     * @return \Illuminate\Database\Eloquent\Collection
+     */
+    public static function havingArticles()
+    {
+        return static::has('articles', '>', 0)->get();
     }
 }

@@ -42,10 +42,15 @@ p, ul, li{
 }
 
 .tags {
-    margin-top: 37;
+    margin-top: 37px;
 }
 
 .tags a {
     text-decoration: none;
     margin-bottom: 8px;
+}
+
+.article-metadata {
+    color: #777;
+    font-size: 12px;
 }

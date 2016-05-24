@@ -21,7 +21,7 @@ class PostsController extends Controller
     {
         $articles = Article::listing($tag);
 
-        return view('pages.blog.listing', compact('articles'));
+        return view('pages.blog.listing', compact('articles', 'tag'));
     }
 
     /**
@@ -59,9 +59,13 @@ class PostsController extends Controller
     private function seoData($article)
     {
         $meta_page_title = 'Adib Hanna - ' . $article->title;
+
         $meta_post_title = $article->title;
+
         $meta_post_description = $article->description;
+
         $meta_post_url = url()->current();
+
         $meta_post_type = implode(', ', $article->tags->map(function ($tag) {
             return $tag->title;
         })->toArray());

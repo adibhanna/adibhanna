@@ -66,9 +66,10 @@
         </div>
 
         <div class="col-md-3">
-            <img src="{{ asset('img/adib1.jpg') }}" alt="Adib Hanna" class="img-circle" width="200px">
+            <img src="{{ asset('img/adib1.jpg') }}" alt="Adib Hanna" class="img-thumbnail" width="200px">
         </div>
     </div>
+    <hr>
     <div class="row">
         <div class="col-md-3">
             <strong>Contact:</strong>

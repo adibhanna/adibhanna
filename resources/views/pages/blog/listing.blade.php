@@ -8,7 +8,7 @@
 
         <ul class="post-list">
             @foreach($articles as $article)
-            <li class="post-list__post">
+            <li class="post-list__post article_well">
                 {{--#disqus_thread--}}
                 <a href="/blog/{{ $article->slug }}" class="post-list__link">{{ $article->title }}</a>
                 <p class="post-list__preview">{{ $article->description }}</p>

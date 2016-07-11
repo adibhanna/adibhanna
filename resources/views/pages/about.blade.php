@@ -61,12 +61,21 @@
             <span class="label label-primary">Machine Learning</span>
             <span class="label label-primary">Natural Language Processing</span>
             <span class="label label-primary">Automated Deployments / CI</span>
-            <br><br>
-            <p><a href="/resume" target="_blank"><i class="fa fa-download"></i> Download my resume.</a></p>
+            <hr>
+            <h4>Things I can help you with:</h4>
+            <ul>
+                <li>Backend &amp; API Development</li>
+                <li>Application Deployments &amp; Continuous Integration</li>
+                <li>Application Architecture and Design</li>
+                <li>Refactoring/Migrating old products (moving from Yii, Codigniter, Kohana... to Laravel or Symfony)</li>
+                <li>Choosing the right technologies for your product</li>
+                <li>Frontend apps using Vuejs</li>
+            </ul>
         </div>
 
         <div class="col-md-3">
-            <img src="{{ asset('img/adib1.jpg') }}" alt="Adib Hanna" class="img-thumbnail" width="200px">
+            <img src="{{ asset('img/adib1.jpg') }}" alt="Adib Hanna" class="img-thumbnail" width="200px" style="margin-bottom: 10px;">
+            <a href="/resume" target="_blank" class="btn btn-sm btn-default"><i class="fa fa-download"></i> Download my resume</a>
         </div>
     </div>
     <hr>

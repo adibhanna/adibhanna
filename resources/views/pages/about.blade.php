@@ -6,95 +6,78 @@
             <h3>Hello, My name is Adib Hanna.</h3> <br>
             <p>I'm a Senior Web Developer from Beirut, Lebanon.</p>
             <p>I've been working in this field since 2011. Bellow are some of the technologies I use:</p>
-            <strong>Languages:</strong>
+            <strong>Favorite Languages:</strong>
             <span class="label label-primary">PHP</span>
-            <span class="label label-primary">Golang</span>
             <span class="label label-primary">Javascript</span>
-            <span class="label label-primary">Lua</span>
-            <span class="label label-primary">HTML5</span>
-            <span class="label label-primary">CSS</span>
-            <span class="label label-primary">SQL</span>
+            <span class="label label-primary">Golang</span>
             <span class="label label-primary">Cypher</span>
+            <span class="label label-primary">SQL</span>
             <br>
             <strong>Frameworks &amp; Libraries :</strong>
-            <span class="label label-primary">Laravel 3,4,5..</span>
+            <span class="label label-primary">Laravel (favorite)</span>
             <span class="label label-primary">Symfony</span>
             <span class="label label-primary">Codigniter</span>
+            <span class="label label-primary">Yii</span>
+            <span class="label label-primary">Kohana</span>
             <span class="label label-primary">Nodejs</span>
+            <span class="label label-primary">Socket.io</span>
             <span class="label label-primary">Expressjs</span>
             <span class="label label-primary">Loopback</span>
-            <span class="label label-primary">Meteorjs</span>
             <span class="label label-primary">Vuejs</span>
             <span class="label label-primary">Emberjs</span>
-            <span class="label label-primary">Reactjs</span>
-            <span class="label label-primary">Socket.io</span>
-            <span class="label label-primary">D3.js</span>
-            <span class="label label-primary">Alchemy.js</span>
             <span class="label label-primary">jQuery</span>
             <br>
             <strong>Tools &amp; Others:</strong>
             <span class="label label-primary">Neo4j</span>
             <span class="label label-primary">Mysql</span>
-            <span class="label label-primary">RethinkDB</span>
             <span class="label label-primary">MongoDB</span>
             <span class="label label-primary">Redis</span>
             <span class="label label-primary">Nginx</span>
             <span class="label label-primary">Apache</span>
             <span class="label label-primary">Elasticsearch</span>
-            <span class="label label-primary">Kibana</span>
-            <span class="label label-primary">Logstash</span>
             <span class="label label-primary">Linux</span>
-            <span class="label label-primary">AWS: EC2...</span>
+            <span class="label label-primary">AWS</span>
             <span class="label label-primary">GIT</span>
             <span class="label label-primary">Docker</span>
             <span class="label label-primary">Vagrant</span>
             <span class="label label-primary">PHPUnit</span>
             <span class="label label-primary">Behat</span>
             <span class="label label-primary">PHPSpec</span>
-            <span class="label label-primary">Codeception</span>
             <span class="label label-primary">Design Patterns</span>
             <span class="label label-primary">Refactoring</span>
-            <span class="label label-primary">Domain Driven Design</span>
-            <span class="label label-primary">Behavior Driven Developement</span>
             <span class="label label-primary">Test Driven Developement</span>
             <span class="label label-primary">SOLID Design Patterns</span>
-            <span class="label label-primary">Machine Learning</span>
-            <span class="label label-primary">Natural Language Processing</span>
             <span class="label label-primary">Automated Deployments / CI</span>
             <hr>
             <h4>Things I can help you with:</h4>
             <ul>
-                <li>Backend &amp; API Development</li>
-                <li>Application Deployments &amp; Continuous Integration</li>
-                <li>Application Architecture and Design</li>
-                <li>Refactoring/Migrating old products (moving from Yii, Codigniter, Kohana... to Laravel or Symfony)</li>
-                <li>Choosing the right technologies for your product</li>
-                <li>Frontend apps using Vuejs</li>
+                <li>Backend &amp; API Development.</li>
+                <li>Application Deployments &amp; Continuous Integration.</li>
+                <li>Application Architecture and Design.</li>
+                <li>Refactoring/Migrating old PHP products to Laravel.</li>
+                <li>Choosing the right technologies for your product.</li>
+                <li>Frontend apps using Vuejs.</li>
             </ul>
         </div>
 
         <div class="col-md-3">
             <img src="{{ asset('img/adib1.jpg') }}" alt="Adib Hanna" class="img-thumbnail" width="200px" style="margin-bottom: 10px;">
-            <a href="/resume" target="_blank" class="btn btn-sm btn-default"><i class="fa fa-download"></i> Download my resume</a>
+            <span><i class="fa fa-google"></i> Email: <a href="mailto:adibhanna@gmail.com">adibhanna@gmail.com</a></span> <br>
+            <span><i class="fa fa-skype"></i> Skype: adib_hanna</span> <br>
+            <a href="/resume" target="_blank" class="btn btn-sm btn-default" style="margin-top: 5px;"><i class="fa fa-download"></i> Download my resume</a>
         </div>
     </div>
     <hr>
     <div class="row">
         <div class="col-md-3">
-            <strong>Contact:</strong>
-            <p>
-                <i class="fa fa-google"></i> Email: <a href="mailto:adibhanna@gmail.com">adibhanna@gmail.com</a> <br>
-                <i class="fa fa-skype"></i> Skype: adib_hanna <br>
-            </p>
-        </div>
-        <div class="col-md-3">
             <p>You can also find me on these slack groups:</p>
             <ul>
-                <li><a href="http://vueslack.slack.com" target="_blank">vueslack.slack.com</a></li>
-                <li><a href="http://larachat.slack.com" target="_blank">larachat.slack.com</a></li>
-                <li><a href="http://embercommunity.slack.com" target="_blank">embercommunity.slack.com</a></li>
-                <li><a href="http://neo4j-users.slack.com" target="_blank">neo4j-users.slack.com</a></li>
-                <li><a href="http://mena-devs.slack.com" target="_blank">mena-devs.slack.com</a></li>
+                <li>Vuejs: <a href="http://vueslack.slack.com" target="_blank">vueslack.slack.com</a></li>
+                <li>Laravel: <a href="http://larachat.slack.com" target="_blank">larachat.slack.com</a></li>
+                <li>Emberjs: <a href="http://embercommunity.slack.com" target="_blank">embercommunity.slack.com</a></li>
+                <li>Neo4j: <a href="http://neo4j-users.slack.com" target="_blank">neo4j-users.slack.com</a></li>
+                <li>Mena Devs: <a href="http://mena-devs.slack.com" target="_blank">mena-devs.slack.com</a></li>
+                <li>Golang: <a href="https://gophers.slack.com/" target="_blank">gophers.slack.com/</a></li>
             </ul>
         </div>
         <div class="col-md-3">

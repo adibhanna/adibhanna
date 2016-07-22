@@ -62,8 +62,10 @@
 
         <div class="col-md-3">
             <img src="{{ asset('img/adib1.jpg') }}" alt="Adib Hanna" class="img-thumbnail" width="200px" style="margin-bottom: 10px;">
-            <span><i class="fa fa-google"></i> Email: <a href="mailto:adibhanna@gmail.com">adibhanna@gmail.com</a></span> <br>
-            <span><i class="fa fa-skype"></i> Skype: adib_hanna</span> <br>
+            <p>
+                <i class="fa fa-google"></i> Email: <a href="mailto:adibhanna@gmail.com">adibhanna@gmail.com</a> <br>
+                <i class="fa fa-skype"></i> Skype: adib_hanna
+            </p>
             <a href="/resume" target="_blank" class="btn btn-sm btn-default" style="margin-top: 5px;"><i class="fa fa-download"></i> Download my resume</a>
         </div>
     </div>

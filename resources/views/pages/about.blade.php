@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-md-9">
             <h3>Hello, My name is Adib Hanna.</h3> <br>
-            <p>I'm a Senior Web Developer from Beirut, Lebanon.</p> <p>Currently working for Coded Design as a Senior PHP developer.</p>
+            <p>I'm a Senior Web Developer from Beirut, Lebanon.</p> <p>Currently working for <a href="http://codeddesign.org" target="_blank">Coded Design</a> as a Senior PHP developer.</p>
             <p>I've been working in this field since 2011. Bellow are some of the technologies I use:</p>
             <strong>Favorite Languages:</strong>
             <span class="label label-primary">PHP</span>

@@ -20,12 +20,8 @@
             <span class="label label-primary">Yii</span>
             <span class="label label-primary">Kohana</span>
             <span class="label label-primary">Nodejs</span>
-            <span class="label label-primary">Socket.io</span>
             <span class="label label-primary">Expressjs</span>
-            <span class="label label-primary">Loopback</span>
             <span class="label label-primary">Vuejs</span>
-            <span class="label label-primary">Emberjs</span>
-            <span class="label label-primary">jQuery</span>
             <br>
             <strong>Tools &amp; Others:</strong>
             <span class="label label-primary">Neo4j</span>
@@ -35,6 +31,8 @@
             <span class="label label-primary">Nginx</span>
             <span class="label label-primary">Apache</span>
             <span class="label label-primary">Elasticsearch</span>
+            <span class="label label-primary">Logstash</span>
+            <span class="label label-primary">Kibana</span>
             <span class="label label-primary">Linux</span>
             <span class="label label-primary">AWS</span>
             <span class="label label-primary">GIT</span>
@@ -54,9 +52,9 @@
                 <li>Backend &amp; API Development.</li>
                 <li>Application Deployments &amp; Continuous Integration.</li>
                 <li>Application Architecture and Design.</li>
-                <li>Refactoring/Migrating old PHP products to Laravel.</li>
+                <li>Refactoring/Migrating old PHP products to <a href="https://laravel.com" target="_blank">Laravel.</a></li>
                 <li>Choosing the right technologies for your product.</li>
-                <li>Frontend apps using Vuejs.</li>
+                <li>Frontend development using <a href="http://vuejs.org/" target="_blank">Vuejs.</a></li>
             </ul>
         </div>
 
@@ -71,7 +69,7 @@
     </div>
     <hr>
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-4">
             <p>You can also find me on these slack groups:</p>
             <ul>
                 <li>Vuejs: <a href="http://vueslack.slack.com" target="_blank">vueslack.slack.com</a></li>
@@ -82,14 +80,14 @@
                 <li>Golang: <a href="https://gophers.slack.com/" target="_blank">gophers.slack.com/</a></li>
             </ul>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-5">
             <p>Other interests and hobbies:</p>
             <ul>
                 <li>
                     Photography: <a href="http://adibhanna.deviantart.com/" target="_blank">Deviantart (archived)</a> - <a href="https://www.instagram.com/adib_hanna/" target="_blank">Instagram</a>
                 </li>
                 <li>Chess: <a href="https://ratings.fide.com/card.phtml?event=5301513" target="_blank">Fide.com</a> - <a href="http://www.chess.com">chess.com</a> (usename: Adib_Takween)</li>
-                <li>Music: Composition, Bass guitar, some classical guitar.</li>
+                <li>Music: Composition, Bass Guitar.</li>
                 <li>Reading, Painting, Bodybuilding.</li>
             </ul>
         </div>

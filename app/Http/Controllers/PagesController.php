@@ -17,6 +17,11 @@ class PagesController extends Controller
         return view('pages.about');
     }
 
+    public function work()
+    {
+        return view('pages.work');
+    }
+
     /**
      * Download my resume.
      *

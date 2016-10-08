@@ -11,6 +11,7 @@ function markdown($text) {
 }
 
 Route::get('/', 'PagesController@index');
+Route::get('/work', 'PagesController@work');
 Route::get('/resume', 'PagesController@resume');
 Route::resource('/blog', 'PostsController', ['only' => ['index', 'show']]);
 Route::get('/tags/{tag}', 'PostsController@index');

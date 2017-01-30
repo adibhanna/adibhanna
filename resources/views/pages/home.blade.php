@@ -4,24 +4,20 @@
     <div class="row">
         <div class="col-md-9">
             <h3>Hello, My name is Adib Hanna.</h3> <br>
-            <p>I'm a Senior Web Developer from Beirut, Lebanon.</p>
-            <p>I've been working in this field since 2011. Bellow are some of the technologies I use:</p>
-            <strong>Favorite Languages:</strong>
+            <p>I'm a Senior Software Engineer from Beirut, Lebanon.</p>
+            <p>I've been working in this field since 2011.</p>
+            {{-- <strong>Favorite Languages:</strong>
             <span class="label label-primary">PHP</span>
             <span class="label label-primary">Javascript</span>
-            <span class="label label-primary">Golang</span>
             <span class="label label-primary">Cypher</span>
             <span class="label label-primary">SQL</span>
             <br>
-            <strong>Frameworks &amp; Libraries :</strong>
-            <span class="label label-primary">Laravel (favorite)</span>
-            <span class="label label-primary">Symfony</span>
+            <strong>Frameworks:</strong>
+            <span class="label label-primary">Laravel</span>
             <span class="label label-primary">Codigniter</span>
             <span class="label label-primary">Yii</span>
             <span class="label label-primary">Kohana</span>
             <span class="label label-primary">Nodejs</span>
-            <span class="label label-primary">Expressjs</span>
-            <span class="label label-primary">Vuejs</span>
             <br>
             <strong>Tools &amp; Others:</strong>
             <span class="label label-primary">Neo4j</span>
@@ -45,21 +41,20 @@
             <span class="label label-primary">Refactoring</span>
             <span class="label label-primary">Test Driven Developement</span>
             <span class="label label-primary">SOLID Design Patterns</span>
-            <span class="label label-primary">Automated Deployments / CI</span>
+            <span class="label label-primary">Automated Deployments / CI</span> --}}
+
             <hr>
             <h4>Things I can help you with:</h4>
             <ul>
-                <li>Backend &amp; API Development.</li>
+                <li>Backend &amp; API Development using PHP/<a href="https://laravel.com" target="_blank">Laravel</a> - <a href="https://nodejs.org" target="_blank">Nodejs</a>.</li>
                 <li>Application Deployments &amp; Continuous Integration.</li>
                 <li>Application Architecture and Design.</li>
-                <li>Refactoring/Migrating old PHP products to <a href="https://laravel.com" target="_blank">Laravel.</a></li>
+                <li>Refactoring/Migrating old PHP products.</li>
                 <li>Nodejs:
                     <a href="https://expressjs.com" target="_blank">ExpressJs</a>,
-                    <a href="http://loopback.io/" target="_blank">Loopback</a>,
-                    <a href="http://sailsjs.com/" target="_blank">SailsJs</a>,
-                    <a href="https://hapijs.com/" target="_blank">HapiJs</a>
+                    <a href="http://loopback.io/" target="_blank">Loopback</a>.
                 </li>
-                <li>Frontend development using <a href="http://vuejs.org/" target="_blank">Vuejs.</a></li>
+                <li>Frontend SPA development using <a href="http://vuejs.org/" target="_blank">Vuejs.</a></li>
             </ul>
         </div>
 

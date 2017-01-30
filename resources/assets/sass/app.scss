@@ -1,4 +1,71 @@
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "node_modules/font-awesome/scss/font-awesome.scss";
-@import "navbar.scss";
+// @import "navbar.scss";
 @import "style.scss";
+.navbar-default {
+    background-color: #1197b2;
+    border-color: #0b7a90;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #0f8198;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #ffffff;
+    background-color: transparent;
+}
+a {
+    color: #0b7a90;
+    text-decoration: none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #0f8198;
+}
+.label-primary {
+    background-color: #1197b2;
+}
+a:hover, a:focus {
+    color: #0f8198;
+    text-decoration: underline;
+}
+.pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.428571429;
+    text-decoration: none;
+    color: #1197b2;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+}
+.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
+    z-index: 2;
+    color: #0b7a90;
+    background-color: #eeeeee;
+    border-color: #ddd;
+}
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+    z-index: 3;
+    color: #fff;
+    background-color: #1197b2;
+    border-color: #0b7a90;
+    cursor: default;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #1197b2;
+    border-color: #0b7a90;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0f8198;
+    border-color: #0b6375;
+}

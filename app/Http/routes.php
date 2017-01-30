@@ -1,5 +1,16 @@
 <?php
 
+/**
+ * Set active class to menu links.
+ *
+ * @param $path
+ * @param string $active
+ * @return string
+ */
+function set_active($path, $active = 'active') {
+    return call_user_func_array('Request::is', (array)$path) ? $active : '';
+}
+
 
 /**
  * Convert some text to Markdown...

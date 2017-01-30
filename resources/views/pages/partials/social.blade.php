@@ -4,7 +4,7 @@
     </a>
 </li>
 <li>
-    <a href="https://twitter.com/adibhanna" target="_blank">
+    <a href="https://twitter.com/Adib_Hanna" target="_blank">
         <i class="fa fa-twitter"></i>
     </a>
 </li>

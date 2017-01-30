@@ -5,8 +5,9 @@
         <div class="col-md-10 col-lg-8">
             <h1>{{ $article->title }}</h1>
             <p class="article-metadata">Posted on {{ $article->created_at->formatLocalized('%A %d %B %Y') }}</p>
+            <hr>
             <p>{!! markdown($article->body) !!}</p>
-
+            <br>
             @include('pages.partials.disqus')
         </div>
 

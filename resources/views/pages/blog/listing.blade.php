@@ -11,16 +11,16 @@
             <li class="post-list__post article_well">
                 {{--#disqus_thread--}}
                 <a href="/blog/{{ $article->slug }}" class="post-list__link">{{ $article->title }}</a>
+                <p class="article-metadata">Posted on {{ $article->created_at->formatLocalized('%A %d %B %Y') }}</p>
                 <p class="post-list__preview">{{ $article->description }}</p>
             </li>
             @endforeach
         </ul>
+
         {!! $articles->links() !!}
     </div>
 
     <div class="col-lg-3 col-lg-push-1 col-md-2 right-rail">
-        @include('pages.partials.twitter')
-        <hr>
         @include('pages.partials.tags')
     </div>
 </div>

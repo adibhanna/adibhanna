@@ -53,13 +53,19 @@
                 <li>Application Deployments &amp; Continuous Integration.</li>
                 <li>Application Architecture and Design.</li>
                 <li>Refactoring/Migrating old PHP products to <a href="https://laravel.com" target="_blank">Laravel.</a></li>
-                <li>Choosing the right technologies for your product.</li>
+                <li>Nodejs:
+                    <a href="https://expressjs.com" target="_blank">ExpressJs</a>,
+                    <a href="http://loopback.io/" target="_blank">Loopback</a>,
+                    <a href="http://sailsjs.com/" target="_blank">SailsJs</a>,
+                    <a href="https://hapijs.com/" target="_blank">HapiJs</a>
+                </li>
                 <li>Frontend development using <a href="http://vuejs.org/" target="_blank">Vuejs.</a></li>
             </ul>
         </div>
 
         <div class="col-md-3">
-            {{-- <img src="{{ asset('img/adib1.jpg') }}" alt="Adib Hanna" class="img-thumbnail" width="200px" style="margin-bottom: 10px;"> --}}
+            @include('pages.partials.twitter')
+            <img src="{{ asset('img/adib2.jpg') }}" alt="Adib Hanna" class="img-thumbnail" width="200px" style="margin-bottom: 10px;">
             <p>
                 <i class="fa fa-google"></i> Email: <a href="mailto:adibhanna@gmail.com">adibhanna@gmail.com</a> <br>
                 <i class="fa fa-skype"></i> Skype: adib_hanna
@@ -72,7 +78,7 @@
         <div class="col-md-4">
             <p>You can also find me on these slack groups:</p>
             <ul>
-                <li>Vuejs: <a href="http://vueslack.slack.com" target="_blank">vueslack.slack.com</a></li>
+                <li>Vuejs: <a href="http://vueslack.slack.com" target="_blank">vueslack.slack.com (creator)</a></li>
                 <li>Laravel: <a href="http://larachat.slack.com" target="_blank">larachat.slack.com</a></li>
                 <li>Emberjs: <a href="http://embercommunity.slack.com" target="_blank">embercommunity.slack.com</a></li>
                 <li>Neo4j: <a href="http://neo4j-users.slack.com" target="_blank">neo4j-users.slack.com</a></li>
@@ -83,9 +89,6 @@
         <div class="col-md-5">
             <p>Other interests and hobbies:</p>
             <ul>
-                <li>
-                    Photography: <a href="http://adibhanna.deviantart.com/" target="_blank">Deviantart (archived)</a> - <a href="https://www.instagram.com/adib_hanna/" target="_blank">Instagram</a>
-                </li>
                 <li>Chess: <a href="https://ratings.fide.com/card.phtml?event=5301513" target="_blank">Fide.com</a> - <a href="http://www.chess.com">chess.com</a> (usename: Adib_Takween)</li>
                 <li>Music: Composition, Bass Guitar.</li>
                 <li>Reading, Painting, Bodybuilding.</li>

@@ -3,49 +3,12 @@
 @section('content')
     <div class="row">
         <div class="col-md-9">
-            <h3>Hello, My name is Adib Hanna.</h3> <br>
-            <p>I'm a Senior Software Engineer from Beirut, Lebanon.</p>
-            <p>I've been working in this field since 2011.</p>
-            {{-- <strong>Favorite Languages:</strong>
-            <span class="label label-primary">PHP</span>
-            <span class="label label-primary">Javascript</span>
-            <span class="label label-primary">Cypher</span>
-            <span class="label label-primary">SQL</span>
+            <h3>Hi, I'm Adib Hanna.</h3>
+            <p><strong><i class="fa fa-angle-right"></i> Senior Software Engineer from Beirut, Lebanon. I've been working in this field since 2011.</strong></p>
             <br>
-            <strong>Frameworks:</strong>
-            <span class="label label-primary">Laravel</span>
-            <span class="label label-primary">Codigniter</span>
-            <span class="label label-primary">Yii</span>
-            <span class="label label-primary">Kohana</span>
-            <span class="label label-primary">Nodejs</span>
-            <br>
-            <strong>Tools &amp; Others:</strong>
-            <span class="label label-primary">Neo4j</span>
-            <span class="label label-primary">Mysql</span>
-            <span class="label label-primary">MongoDB</span>
-            <span class="label label-primary">Redis</span>
-            <span class="label label-primary">Nginx</span>
-            <span class="label label-primary">Apache</span>
-            <span class="label label-primary">Elasticsearch</span>
-            <span class="label label-primary">Logstash</span>
-            <span class="label label-primary">Kibana</span>
-            <span class="label label-primary">Linux</span>
-            <span class="label label-primary">AWS</span>
-            <span class="label label-primary">GIT</span>
-            <span class="label label-primary">Docker</span>
-            <span class="label label-primary">Vagrant</span>
-            <span class="label label-primary">PHPUnit</span>
-            <span class="label label-primary">Behat</span>
-            <span class="label label-primary">PHPSpec</span>
-            <span class="label label-primary">Design Patterns</span>
-            <span class="label label-primary">Refactoring</span>
-            <span class="label label-primary">Test Driven Developement</span>
-            <span class="label label-primary">SOLID Design Patterns</span>
-            <span class="label label-primary">Automated Deployments / CI</span> --}}
 
-            <hr>
-            <h4>Things I can help you with:</h4>
-            <ul>
+            <strong><i class="fa fa-angle-right"></i> Things I can help you with:</strong>
+            <ul class="margin-top-10">
                 <li>Backend &amp; API Development using PHP/<a href="https://laravel.com" target="_blank">Laravel</a> - <a href="https://nodejs.org" target="_blank">Nodejs</a>.</li>
                 <li>Application Deployments &amp; Continuous Integration.</li>
                 <li>Application Architecture and Design.</li>
@@ -56,6 +19,28 @@
                 </li>
                 <li>Frontend SPA development using <a href="http://vuejs.org/" target="_blank">Vuejs.</a></li>
             </ul>
+            <br>
+             <div class="row">
+                <div class="col-md-5">
+                    <strong><i class="fa fa-angle-right"></i> You can also find me on these slack groups:</strong>
+                    <ul class="margin-top-10">
+                        <li>Vuejs: <a href="http://vueslack.slack.com" target="_blank">vueslack.slack.com (creator)</a></li>
+                        <li>Laravel: <a href="http://larachat.slack.com" target="_blank">larachat.slack.com</a></li>
+                        <li>Emberjs: <a href="http://embercommunity.slack.com" target="_blank">embercommunity.slack.com</a></li>
+                        <li>Neo4j: <a href="http://neo4j-users.slack.com" target="_blank">neo4j-users.slack.com</a></li>
+                        <li>Mena Devs: <a href="http://mena-devs.slack.com" target="_blank">mena-devs.slack.com</a></li>
+                        <li>Golang: <a href="https://gophers.slack.com/" target="_blank">gophers.slack.com/</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <strong><i class="fa fa-angle-right"></i> Other interests and hobbies:</strong>
+                    <ul class="margin-top-10">
+                        <li>Chess: <a href="https://ratings.fide.com/card.phtml?event=5301513" target="_blank">Fide.com</a> - <a href="http://www.chess.com">chess.com</a> (usename: Adib_Takween)</li>
+                        <li>Music: Composition, Bass Guitar.</li>
+                        <li>Reading, Painting, Bodybuilding.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
         <div class="col-md-3">
@@ -66,28 +51,6 @@
                 <i class="fa fa-skype"></i> Skype: adib_hanna
             </p>
             <a href="/resume" target="_blank" class="btn btn-sm btn-default" style="margin-top: 5px;"><i class="fa fa-download"></i> Download my resume</a>
-        </div>
-    </div>
-    <hr>
-    <div class="row">
-        <div class="col-md-4">
-            <p>You can also find me on these slack groups:</p>
-            <ul>
-                <li>Vuejs: <a href="http://vueslack.slack.com" target="_blank">vueslack.slack.com (creator)</a></li>
-                <li>Laravel: <a href="http://larachat.slack.com" target="_blank">larachat.slack.com</a></li>
-                <li>Emberjs: <a href="http://embercommunity.slack.com" target="_blank">embercommunity.slack.com</a></li>
-                <li>Neo4j: <a href="http://neo4j-users.slack.com" target="_blank">neo4j-users.slack.com</a></li>
-                <li>Mena Devs: <a href="http://mena-devs.slack.com" target="_blank">mena-devs.slack.com</a></li>
-                <li>Golang: <a href="https://gophers.slack.com/" target="_blank">gophers.slack.com/</a></li>
-            </ul>
-        </div>
-        <div class="col-md-5">
-            <p>Other interests and hobbies:</p>
-            <ul>
-                <li>Chess: <a href="https://ratings.fide.com/card.phtml?event=5301513" target="_blank">Fide.com</a> - <a href="http://www.chess.com">chess.com</a> (usename: Adib_Takween)</li>
-                <li>Music: Composition, Bass Guitar.</li>
-                <li>Reading, Painting, Bodybuilding.</li>
-            </ul>
         </div>
     </div>
 @stop

@@ -10,6 +10,7 @@
 
     <div class="container">
         @yield('content')
+
         <hr>
         @include('pages.partials.footer')
     </div>

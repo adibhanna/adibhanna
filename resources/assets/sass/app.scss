@@ -1,7 +1,23 @@
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "node_modules/font-awesome/scss/font-awesome.scss";
-// @import "navbar.scss";
-@import "style.scss";
+// @import "style.scss";
+
+.blog-post {
+    margin-bottom: 15px
+}
+.blog-post strong {
+    font-size: 18px;
+}
+.blog-post .meta {
+    color:#777;
+    font-size:12px;
+    margin-left: 12px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
 .navbar-default {
     background-color: #1197b2;
     border-color: #0b7a90;

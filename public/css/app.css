@@ -7824,53 +7824,19 @@ button.close {
 .fa-percent:before {
   content: ""; }
 
-body {
-  line-height: 1.7; }
+.blog-post {
+  margin-bottom: 15px; }
 
-p, h1, h2, h3, h4, h5 {
-  color: #2c3e50; }
+.blog-post strong {
+  font-size: 18px; }
 
-p, ul, li {
-  font-size: 16px; }
-
-.post-list {
-  font-size: 1.75rem;
-  list-style-type: none;
-  max-width: 40em;
-  padding-left: 0; }
-
-.post-list__post {
-  clear: left;
-  list-style-type: none;
-  margin-bottom: 15px;
-  padding-left: 0; }
-
-.post-list__date {
-  color: #aaa;
-  display: block;
-  font-size: 0.8em; }
-
-.post-list__link {
-  font-size: 1.2em; }
-
-.post-list__preview {
-  font-size: 0.8em; }
-
-.tags {
-  margin-top: 37px; }
-
-.tags a {
-  text-decoration: none;
-  margin-bottom: 8px; }
-
-.article-metadata {
+.blog-post .meta {
   color: #777;
-  font-size: 12px; }
+  font-size: 12px;
+  margin-left: 12px; }
 
-.article_well {
-  padding: 15px;
-  background-color: white;
-  box-shadow: 0 1px 2px rgba(151, 151, 151, 0.58); }
+.margin-top-10 {
+  margin-top: 10px; }
 
 .navbar-default {
   background-color: #1197b2;

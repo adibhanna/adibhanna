@@ -66,7 +66,7 @@ class Article extends Model
     public static function listing($tag = null)
     {
         return (!is_null($tag))
-            ? static::byTag($tag)->orderBy('created_at', 'desc')->paginate(10)
-            : static::orderBy('created_at', 'desc')->paginate(10);
+            ? static::byTag($tag)->orderBy('created_at', 'desc')->paginate(20)
+            : static::orderBy('created_at', 'desc')->paginate(20);
     }
 }

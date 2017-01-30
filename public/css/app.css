@@ -7824,6 +7824,16 @@ button.close {
 .fa-percent:before {
   content: ""; }
 
+body {
+  color: #333; }
+
+.home p strong, strong, ul li {
+  font-size: 15px; }
+
+.home .sub-title {
+  font-size: 15px;
+  font-style: italic; }
+
 .blog-post {
   margin-bottom: 15px; }
 

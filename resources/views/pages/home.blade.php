@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="row">
+    <div class="row home">
         <div class="col-md-9">
             <h3>Hi, I'm Adib Hanna.</h3>
-            <p><strong><i class="fa fa-angle-right"></i> Senior Software Engineer from Beirut, Lebanon. I've been working in this field since 2011.</strong></p>
+            <p class="sub-title"><i class="fa fa-angle-right"></i> Senior Software Engineer from Beirut, Lebanon. I've been working in this field since 2011.</p>
             <br>
 
             <strong><i class="fa fa-angle-right"></i> Things I can help you with:</strong>
@@ -22,7 +22,7 @@
             <br>
              <div class="row">
                 <div class="col-md-5">
-                    <strong><i class="fa fa-angle-right"></i> You can also find me on these slack groups:</strong>
+                    <strong><i class="fa fa-angle-right"></i> Find me on these slack groups:</strong>
                     <ul class="margin-top-10">
                         <li>Vuejs: <a href="http://vueslack.slack.com" target="_blank">vueslack.slack.com (creator)</a></li>
                         <li>Laravel: <a href="http://larachat.slack.com" target="_blank">larachat.slack.com</a></li>

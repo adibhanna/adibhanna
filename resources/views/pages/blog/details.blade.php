@@ -15,7 +15,9 @@
             </p>
             <hr>
 
-            <p>{!! markdown($article->body) !!}</p>
+            <div class="article-body">
+                {!! markdown($article->body) !!}
+            </div>
 
             <br>
             @include('pages.partials.disqus')

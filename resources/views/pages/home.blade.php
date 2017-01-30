@@ -60,7 +60,7 @@
 
         <div class="col-md-3">
             @include('pages.partials.twitter')
-            <img src="{{ asset('img/adib2.jpg') }}" alt="Adib Hanna" class="img-thumbnail" width="200px" style="margin-bottom: 10px;">
+            <img src="{{ asset('img/me.jpg') }}" alt="Adib Hanna" class="img-thumbnail" width="200px" style="margin-bottom: 10px;">
             <p>
                 <i class="fa fa-google"></i> Email: <a href="mailto:adibhanna@gmail.com">adibhanna@gmail.com</a> <br>
                 <i class="fa fa-skype"></i> Skype: adib_hanna

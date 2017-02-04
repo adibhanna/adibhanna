@@ -4,10 +4,10 @@
     <div class="row home">
         <div class="col-md-9">
             <h3>Hi, I'm Adib Hanna.</h3>
-            <p class="sub-title"><i class="fa fa-angle-right"></i> Senior Software Engineer from Beirut, Lebanon. I've been working in this field since 2011.</p>
+            <p class="sub-title">Senior Software Engineer from Beirut, Lebanon. I've been working in this field since 2011.</p>
             <br>
 
-            <strong><i class="fa fa-angle-right"></i> Things I can help you with:</strong>
+            <strong>Things I can help you with:</strong>
             <ul class="margin-top-10">
                 <li>Backend &amp; API Development using PHP/<a href="https://laravel.com" target="_blank">Laravel</a> - <a href="https://nodejs.org" target="_blank">Nodejs</a>.</li>
                 <li>Application Deployments &amp; Continuous Integration.</li>
@@ -22,7 +22,7 @@
             <br>
              <div class="row">
                 <div class="col-md-5">
-                    <strong><i class="fa fa-angle-right"></i> Find me on these slack groups:</strong>
+                    <strong>Find me on these slack groups:</strong>
                     <ul class="margin-top-10">
                         <li>Vuejs: <a href="http://vueslack.slack.com" target="_blank">vueslack.slack.com (creator)</a></li>
                         <li>Laravel: <a href="http://larachat.slack.com" target="_blank">larachat.slack.com</a></li>
@@ -33,7 +33,7 @@
                     </ul>
                 </div>
                 <div class="col-md-6">
-                    <strong><i class="fa fa-angle-right"></i> Other interests and hobbies:</strong>
+                    <strong>Other interests and hobbies:</strong>
                     <ul class="margin-top-10">
                         <li>Chess: <a href="https://ratings.fide.com/card.phtml?event=5301513" target="_blank">Fide.com</a> - <a href="http://www.chess.com">chess.com</a> (usename: Adib_Takween)</li>
                         <li>Music: Composition, Bass Guitar.</li>

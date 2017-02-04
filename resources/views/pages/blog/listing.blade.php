@@ -8,7 +8,7 @@
         @foreach($articles as $article)
             <div class="blog-post">
                 <strong>
-                    <a href="/blog/{{ $article->slug }}" class="post-list__link"><i class="fa fa-angle-right"></i> {{ $article->title }}</a>
+                    <a href="/blog/{{ $article->slug }}" class="post-list__link">{{ $article->title }}</a>
                 </strong>
 
                 <br>

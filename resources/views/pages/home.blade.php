@@ -4,7 +4,7 @@
     <div class="row home">
         <div class="col-md-9">
             <h3>Hi, I'm Adib Hanna.</h3>
-            <p class="sub-title">Senior Software Engineer from Beirut, Lebanon. I've been working in this field since 2011.</p>
+            <p class="sub-title">Tech Lead @ <a href="https://nationalmachine.co" target="_blank">National Machine</a> </p>
             <br>
 
             <strong>Things I can help you with:</strong>

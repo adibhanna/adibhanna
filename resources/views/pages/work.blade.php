@@ -1,8 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h2 style="margin-bottom: 15px">Work</h2>
-
+    <div style="margin-top: 10px"></div>
     <ul class="list-group">
         <li class="list-group-item">
             <h4 class="list-group-item-heading">List group item heading</h4>

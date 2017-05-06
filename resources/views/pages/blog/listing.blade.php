@@ -4,14 +4,12 @@
 
 <div class="row">
     <div class="col-md-10 col-lg-10">
-        <h2 style="margin-bottom: 15px">Articles</h2>
+        <div style="margin-top: 10px"></div>
         @foreach($articles as $article)
             <div class="blog-post">
-                <strong>
+                <h3>
                     <a href="/blog/{{ $article->slug }}" class="post-list__link">{{ $article->title }}</a>
-                </strong>
-
-                <br>
+                </h3>
 
                 <p class="meta">Posted on {{ $article->created_at->formatLocalized('%A %d %B %Y') }} | Tags:
                     @if($article->tags->count())

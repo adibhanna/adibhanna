@@ -1,8 +1,10 @@
 body {
-    color: #333;
+    color: #3A4B54;
+    line-height: 1.70;
+    font-size: 17px;
 }
 .home p strong, strong, ul li{
-    font-size: 15px
+    font-size: 16px
 }
 .home .sub-title {
     font-size: 15px;
@@ -12,17 +14,20 @@ body {
 .article-body {
 
 }
+.article-metadata {
+    font-size: 14px;
+}
 
 .blog-post {
-    margin-bottom: 15px
+    // margin-bottom: 25px;
 }
-.blog-post strong {
-    font-size: 18px;
+.blog-post h3 {
+    font-size: 20px;
 }
 .blog-post .meta {
     color:#777;
     font-size:12px;
-    margin-left: 12px;
+    margin-left: 0px;
 }
 
 .margin-top-10 {
@@ -31,8 +36,10 @@ body {
 
 .navbar-default {
     background-color: #1197b2;
-    border-color: #0b7a90;
+    //border-color: #1197b2;
+    //border-top: 3px solid #0f8198;
 }
+
 .navbar-default .navbar-brand {
     color: #fff;
     font-weight: 500;

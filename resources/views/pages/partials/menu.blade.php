@@ -12,8 +12,8 @@
 
         <div class="collapse navbar-collapse" id="app-navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="{{ set_active('blog') }}"><a href="{{ url('/blog') }}">Blog</a></li>
-                <li class="{{ set_active('work') }}"><a href="{{ url('/work') }}">Work</a></li>
+                {{-- <li class="{{ set_active('blog') }}"><a href="{{ url('/blog') }}">Blog</a></li> --}}
+                {{-- <li class="{{ set_active('work') }}"><a href="{{ url('/work') }}">Work</a></li> --}}
             </ul>
 
             <ul class="nav navbar-nav navbar-right">

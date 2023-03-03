@@ -2,7 +2,7 @@
 
 I’m currently working on Ethereum Block building at Blocknative.
 
-I enjoy coding with Rust, Golang, and Typescript. 
+I enjoy coding with Rust, Golang, Typescript, Nodejs.
 
 I share coding tutorials on Youtube: https://www.youtube.com/@adibhanna
 

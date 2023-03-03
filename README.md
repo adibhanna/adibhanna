@@ -1,5 +1,11 @@
 ### Hi there 👋
 
+I’m currently working on Ethereum Block building at Blocknative.
+I enjoy coding with Rust, Golang, and Typescript. 
+
+Check out my Youtube channel, where I share coding tutorial ➡️ https://www.youtube.com/@adibhanna
+Or follow me on Twitter https://twitter.com/Adib_Hanna
+
 <!--
 **adibhanna/adibhanna** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

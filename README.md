@@ -1,12 +1,14 @@
 ### Hi there 👋
 
-I’m currently working on Ethereum Block building at Blocknative.
+Rust, Golang, Typescript/Nodejs, PHP/Laravel.
 
-I enjoy coding with Rust, Golang, Typescript, Nodejs.
+Youtube: https://www.youtube.com/@adibhanna
 
-I share coding tutorials on Youtube: https://www.youtube.com/@adibhanna
+Twitter: https://twitter.com/Adib_Hanna
 
-Follow me on Twitter https://twitter.com/Adib_Hanna
+Neovim course: https://neovimmastery.com/
+
+All the things: https://profile.adibhanna.com/
 
 <!--
 **adibhanna/adibhanna** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

@@ -1,7 +1,7 @@
 ### Hi there 👋
 
-I'm Adib, a senior backend engineer, and educator. 
-Tech Stack: Rust, Golang, Zig, Typescript/Nodejs, PHP/Laravel.
+I'm Adib, a senior backend engineer, and content creator. 
+Tech Stack: Golang, Typescript/Nodejs, PHP/Laravel.
 
 Youtube: https://www.youtube.com/@adibhanna
 

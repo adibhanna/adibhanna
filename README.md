@@ -7,6 +7,8 @@ Youtube: https://www.youtube.com/@adibhanna
 
 Twitter: https://twitter.com/Adib_Hanna
 
+Dotfiles Newsletter: https://dotfiles.substack.com
+
 Neovim course: https://neovimmastery.com/
 
 All the things: https://profile.adibhanna.com/

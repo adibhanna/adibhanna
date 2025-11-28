@@ -5,7 +5,7 @@ Tech Stack: Golang, Typescript/Nodejs, PHP/Laravel.
 
 Youtube: https://www.youtube.com/@adibhanna
 
-Twitter: https://twitter.com/Adib_Hanna
+Twitter: https://twitter.com/adibhanna
 
 Dotfiles Newsletter: https://dotfiles.substack.com
 

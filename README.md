@@ -1,11 +1,14 @@
 ### Hi there 👋
 
 I'm Adib, a senior backend engineer, and content creator. 
-Tech Stack: Golang, Typescript/Nodejs, PHP/Laravel.
+My Company: http://lumarylabs.com/
 
-Youtube: https://www.youtube.com/@adibhanna
+Apps I've built:
+Lumary: http://lumary.app/
 
-Twitter: https://twitter.com/adibhanna
+YouTube: https://www.youtube.com/@adibhanna
+
+X: https://x.com/adibhanna
 
 Dotfiles Newsletter: https://dotfiles.substack.com
 

@@ -1,21 +1,21 @@
 ### Hi there 👋
 
-I'm Adib, a senior backend engineer, and content creator. 
+I'm Adib, a senior backend engineer and content creator. 
 
 My Company: http://lumarylabs.com/
 
 Apps I've built:
 Lumary: http://lumary.app/
+Screen Annotations: https://screenannotations.com/
+Zen Notes: https://zennotes.org/
 
 YouTube: https://www.youtube.com/@adibhanna
-
 X: https://x.com/adibhanna
-
 Dotfiles Newsletter: https://dotfiles.substack.com
 
 Neovim course: https://neovimmastery.com/
 
-All the things: https://profile.adibhanna.com/
+Website: https://adibhanna.com/
 
 <!--
 **adibhanna/adibhanna** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

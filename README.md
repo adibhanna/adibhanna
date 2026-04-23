@@ -5,12 +5,17 @@ I'm Adib, a senior backend engineer and content creator.
 My Company: http://lumarylabs.com/
 
 Apps I've built:
+
 Lumary: http://lumary.app/
+
 Screen Annotations: https://screenannotations.com/
+
 Zen Notes: https://zennotes.org/
 
 YouTube: https://www.youtube.com/@adibhanna
+
 X: https://x.com/adibhanna
+
 Dotfiles Newsletter: https://dotfiles.substack.com
 
 Neovim course: https://neovimmastery.com/

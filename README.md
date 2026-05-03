@@ -12,6 +12,8 @@ Screen Annotations: https://screenannotations.com/
 
 Zen Notes: https://zennotes.org/
 
+Other stuff
+
 YouTube: https://www.youtube.com/@adibhanna
 
 X: https://x.com/adibhanna

@@ -4,7 +4,7 @@ I'm Adib, a senior backend engineer and content creator.
 
 My Company: http://lumarylabs.com/
 
-Apps I've built:
+## Apps I've built:
 
 Lumary: http://lumary.app/
 
@@ -12,7 +12,7 @@ Screen Annotations: https://screenannotations.com/
 
 Zen Notes: https://zennotes.org/
 
-Other stuff
+## Other stuff:
 
 YouTube: https://www.youtube.com/@adibhanna
 
